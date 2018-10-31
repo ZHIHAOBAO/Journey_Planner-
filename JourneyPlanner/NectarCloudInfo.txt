@@ -1,0 +1,17 @@
+No guarantee the Nectar Cloud server is still running.  
+The most up to date version of this project was hosted (as of 6/06/2018) at http://43.240.97.124:8080/
+
+The server adminstration account was a limited to one user and therefore cannot be shared
+
+If http://43.240.97.124:8080/ is still online, it can be accessed through ssh clients eg. PUTTY, winSCP
+Use the following to login combined with the authentication key
+
+IP: 43.240.97.124
+Port: 22
+User: ec2-user
+Full hostname: ec2-user@43.240.97.124
+
+Authentication Key is found packed with this file. It is named 'nectar-otpk.ppk'
+
+The project is run through the startup script 'start-otp.sh'. It is found under the otp directory. 
+
